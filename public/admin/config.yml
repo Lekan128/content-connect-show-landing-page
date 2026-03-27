@@ -1,0 +1,38 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+local_backend:
+  url: http://localhost:8081/api/v1
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "home"
+        label: "Home Page"
+        file: "src/data/home.json"
+        fields:
+          - {label: "Show Title", name: "title", widget: "string"}
+          - {label: "Tagline", name: "tagline", widget: "string"}
+          - {label: "Showcase Video URL", name: "videoUrl", widget: "string"}
+          - label: "Previous Episodes"
+            name: "episodes"
+            widget: "list"
+            fields:
+              - {label: "Episode Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Video URL", name: "videoUrl", widget: "string"}
+              - {label: "Guest Image", name: "guestImage", widget: "image", required: false}
+              - {label: "Guest LinkedIn", name: "guestLinkedin", widget: "string", required: false}
+          - label: "Merch"
+            name: "merch"
+            widget: "list"
+            fields:
+              - {label: "Item Name", name: "name", widget: "string"}
+              - {label: "Price", name: "price", widget: "string", required: false}
+              - {label: "Is Available", name: "isAvailable", widget: "boolean", default: true}
+              - {label: "Image", name: "image", widget: "image", required: false}

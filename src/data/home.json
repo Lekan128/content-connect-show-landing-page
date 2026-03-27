@@ -1,0 +1,62 @@
+{
+  "title": "The Content Connect Show",
+  "tagline": "Connecting Creators Worldwide with Ademilade",
+  "videoUrl": "https://youtu.be/d29uBgwxwZo",
+  "episodes": [
+    {
+      "title": "Connect Connect S2E7: Favour on Surviving Your 20s In a Dog-Eat-Dog World!",
+      "description": "Meet Favour, a lawyer, content marketer, and podcast host who, at some point in uni, mentally clocked out of the career she thought she wanted.",
+      "videoUrl": "https://www.youtube.com/watch?v=X4L-AihBs0w",
+      "guestImage": "https://media.licdn.com/dms/image/v2/D4D03AQGfNCexGf8Svw/profile-displayphoto-shrink_400_400/B4DZU.mnNcHAAg-/0/1740512067441?e=1776297600&v=beta&t=WR2k5iu862s5mfu6-7CyBO0jf8F1c0HZnUtviI2DPqM",
+      "guestLinkedin": "https://www.linkedin.com/in/favouruba001/"
+    },
+    {
+      "title": "Content Connect S2E4: What 7 Years in Content Taught Abioye About Growth, Money & Execution",
+      "description": "Meet Abioye Ogundairo, a content writer, marketer, and founder of TechWriteable, a platform helping writers build portfolios, find jobs, and collaborate with companies across the world.",
+      "videoUrl": "https://www.youtube.com/watch?v=9wiKrlNXTK8",
+      "guestImage": "https://media.licdn.com/dms/image/v2/D4D03AQFPpRjCI2Ke4Q/profile-displayphoto-shrink_400_400/B4DZgrewTSG8Ag-/0/1753076140528?e=1776297600&v=beta&t=2VUe-YYa2Rgn2zH7bquw_NgRuGGJZmQlzKWRGKiKNz0",
+      "guestLinkedin": "https://www.linkedin.com/in/peter-ogundairo"
+    },
+    {
+      "title": "Content Connect S2E2: How Fashion, Twitter & “Luck” Launched Gift Into Tech!",
+      "description": "Meet Gift Arku – a marketing associate, a fashion lover, and your favorite outspoken Twitter girlie 👩🏽💻👠.",
+      "videoUrl": "https://www.youtube.com/watch?v=BZrvIQsPCCw",
+      "guestImage": "https://media.licdn.com/dms/image/v2/D4D03AQGZitGz8fnKvw/profile-displayphoto-scale_400_400/B4DZiOGQHeH8Ag-/0/1754730663027?e=1776297600&v=beta&t=shbKA50ytkSeDRryoTIeS4ByE8tonxQ8VGJvtDPHH44",
+      "guestLinkedin": "https://www.linkedin.com/in/gift-arku?originalSubdomain=ng"
+    },
+    {
+      "title": "Content Connect S2E6: The Gen Z Screenwriter Who Makes You Feel Seen (not just entertained)",
+      "description": "Meet Nengi Diri (the Nengi you heard about), an experienced screenwriter, content writer, and UX writer who was actually behind one of the biggest Nollywood movies last year.",
+      "videoUrl": "https://www.youtube.com/watch?v=-rNqKi2s_9s",
+      "guestImage": "",
+      "guestLinkedin": "https://www.linkedin.com/in/nengi-diri-84287a186/"
+    },
+    {
+      "title": "Content Connect S1E6: Ife’s Got SEO Game AND Loverboy Energy!",
+      "description": "Ifeoluwa Adekoya, an amazing content marketer and SEO strategist at the core. Learn about his journey in the marketing industry and his appreciation for continuous growth and improvement.",
+      "videoUrl": "https://www.youtube.com/watch?v=ZoVhuzy91Fw",
+      "guestImage": "https://media.licdn.com/dms/image/v2/D4D03AQEQkd23Cs3ChA/profile-displayphoto-scale_400_400/B4DZuPSSThIIAk-/0/1767635501308?e=1776297600&v=beta&t=e8TauR8qOiij3z_55UpY9oPvhUJgerep-Hz5MB_neLw",
+      "guestLinkedin": "https://www.linkedin.com/in/ifeoluwa-adekoya/"
+    },
+    {
+      "title": "Content Connect S2E3: How Mariam Turned Her Love for Media Into a Dream Job",
+      "description": "Meet Mariam Akinbami, social media strategist, community manager, and all-round creative powerhouse at Zikoko, one of Africa’s biggest media brands.",
+      "videoUrl": "https://www.youtube.com/watch?v=OmGdxFrkgB4",
+      "guestImage": "https://media.licdn.com/dms/image/v2/D4D03AQElrIG9byoylg/profile-displayphoto-shrink_400_400/B4DZT8Ta2CG8Ak-/0/1739399738644?e=1776297600&v=beta&t=2_s226bJd_WVB2KlqSRl9Usr1HZdf9zh_aFcSK_3UNw",
+      "guestLinkedin": "https://www.linkedin.com/in/mariam-akinbami/"
+    }
+  ],
+  "merch": [
+    {
+      "name": "Official Show Banner",
+      "price": "$25",
+      "isAvailable": true,
+      "image": "/images/uploads/content_connect_banner.jpg"
+    },
+    {
+      "name": "Content Connect Hoodie",
+      "price": "$45",
+      "isAvailable": false
+    }
+  ]
+}
