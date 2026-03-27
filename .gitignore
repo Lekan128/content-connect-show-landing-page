@@ -45,6 +45,7 @@ coverage
 # decap-cache/
 # content/.decap-cache/
 
+# --------------
 
 dist
 dist-ssr
