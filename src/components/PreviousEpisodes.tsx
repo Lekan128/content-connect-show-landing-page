@@ -16,14 +16,14 @@ export default function PreviousEpisodes({ episodes }: PreviousEpisodesProps) {
   if (!episodes || episodes.length === 0) return null;
 
   return (
-    <div className="w-full flex flex-col">
-      <div className="flex justify-between items-center mb-6">
-        <h2 className="text-3xl font-black uppercase tracking-wide">Episodes</h2>
+    <div className="w-full flex flex-col relative">
+      <div className="sticky top-0 z-20 bg-brand-bg/95 backdrop-blur-md py-4 flex flex-row justify-between items-center mb-6 border-b-2 border-brand-text/5">
+        <h2 className="text-2xl md:text-3xl font-black uppercase tracking-wide">Episodes</h2>
         <a 
           href="https://www.youtube.com/@ContenttConnect/videos" 
           target="_blank" 
           rel="noreferrer"
-          className="bg-brand-text text-brand-bg px-5 py-2 rounded-full font-bold text-sm hover:opacity-90 transition-opacity border-2 border-brand-text mb-2"
+          className="bg-brand-text text-brand-bg px-5 py-2 rounded-full font-bold text-sm md:text-base hover:opacity-90 transition-opacity border-2 border-brand-text shadow-sm"
         >
           See All Episodes
         </a>

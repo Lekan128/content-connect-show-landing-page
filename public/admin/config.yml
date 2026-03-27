@@ -19,7 +19,15 @@ collections:
           - {label: "Show Title", name: "title", widget: "string"}
           - {label: "Tagline", name: "tagline", widget: "string"}
           - {label: "Showcase Video URL", name: "videoUrl", widget: "string"}
-          - label: "Previous Episodes"
+
+  - name: "data_lists"
+    label: "Data Lists"
+    files:
+      - name: "episodes"
+        label: "Episodes List"
+        file: "src/data/episodes.json"
+        fields:
+          - label: "Episodes"
             name: "episodes"
             widget: "list"
             fields:
@@ -28,6 +36,11 @@ collections:
               - {label: "Video URL", name: "videoUrl", widget: "string"}
               - {label: "Guest Image", name: "guestImage", widget: "image", required: false}
               - {label: "Guest LinkedIn", name: "guestLinkedin", widget: "string", required: false}
+              
+      - name: "merch"
+        label: "Merch List"
+        file: "src/data/merch.json"
+        fields:
           - label: "Merch"
             name: "merch"
             widget: "list"

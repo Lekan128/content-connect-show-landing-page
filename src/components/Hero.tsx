@@ -8,18 +8,11 @@ interface HeroProps {
 
 export default function Hero({ title, tagline }: HeroProps) {
   return (
-    <section className="w-full min-h-[85vh] flex flex-col items-center justify-center px-6 text-center py-20 relative overflow-hidden">
-      <motion.div 
-        initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-        className="w-[40vw] h-[40vw] max-w-[500px] max-h-[500px] bg-brand-light rounded-full absolute top-0 right-0 mix-blend-overlay blur-3xl opacity-40 translate-x-1/3 -translate-y-1/3 pointer-events-none"
-      />
-      <motion.div 
-        initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-        className="w-[30vw] h-[30vw] max-w-[400px] max-h-[400px] bg-brand-light rounded-full absolute bottom-0 left-0 mix-blend-overlay blur-3xl opacity-40 -translate-x-1/3 translate-y-1/3 pointer-events-none"
+    <section className="w-full min-h-[85vh] flex flex-col items-center justify-center px-6 text-center py-20 relative overflow-hidden bg-brand-bg">
+      {/* Subtle Background from Banner */}
+      <div 
+        className="absolute inset-0 opacity-[0.07] pointer-events-none bg-cover bg-center mix-blend-multiply"
+        style={{ backgroundImage: 'url(/images/uploads/content_connect_banner.jpg)' }}
       />
       
       <div className="relative z-10 flex flex-col items-center">

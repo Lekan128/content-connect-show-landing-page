@@ -1,0 +1,15 @@
+{
+  "merch": [
+    {
+      "name": "Official Show Banner",
+      "price": "$25",
+      "isAvailable": true,
+      "image": "/images/uploads/content_connect_banner.jpg"
+    },
+    {
+      "name": "Content Connect Hoodie",
+      "price": "$45",
+      "isAvailable": false
+    }
+  ]
+}
